@@ -1,8 +1,8 @@
 # VLC media player costume
 
-For Halloween 2026 I'm going as VLC media player. The traffic cone is a foam hat. The player is real: a 7" touchscreen strapped to my chest, driven by a Raspberry Pi 4 hidden behind it, running an actual VLC window that plays a silent loop of short videos my friends sent me. The controls work — people can pause me.
+For Halloween 2026 I'm going as VLC media player. The traffic cone is a foam hat. The player is real: a 7" touchscreen strapped to my chest, driven by a Raspberry Pi 4 hidden behind it, running an actual VLC window that plays a silent loop of short videos my friends sent me. It's a touchscreen, so the play, pause, and seek controls actually work.
 
-This repository holds the build plan and publishes it as a web page:
+This repository holds the build plan and publishes it as a web page (for my own planning purposes):
 
 **Live plan:** https://b-urge.github.io/vlc-costume/
 
@@ -16,7 +16,7 @@ This repository holds the build plan and publishes it as a web page:
 
 Runtime on a 20,000 mAh bank is roughly seven hours. Budget for the whole thing is about $250 new, or around $150 if you already own a Pi and a battery.
 
-## What's in this repo
+## What's in this repo right now
 
 | File | What it is |
 |---|---|
@@ -26,23 +26,21 @@ Runtime on a 20,000 mAh bank is roughly seven hours. Budget for the whole thing 
 | `md2html.js` | Turns the markdown into the styled web page. Runs automatically; you never need to touch it. |
 | `.github/workflows/build.yml` | The GitHub Actions workflow that rebuilds and publishes the page on every commit |
 
-The web page is generated, not hand-written. Edit the markdown, never the HTML.
 
 ## Progress
 
-- [ ] Phase 0 — parts ordered
-- [ ] Phase 1 — Pi boots into VLC on the bench
-- [ ] Phase 2 — runtime measured on the battery
-- [ ] Phase 3 — chest slab built
-- [ ] Phase 4 — harness and cable done
-- [ ] Phase 5 — wear test passed
-- [ ] Phase 6 — SD card locked read-only
-- [ ] Cone hat
-- [ ] Videos collected (15–20 clips, 1–3 minutes each)
+- Phase 0 — parts ordered
+- Phase 1 — Pi boots into VLC on the bench
+- Phase 2 — runtime measured on the battery
+- Phase 3 — chest slab built
+- Phase 4 — harness and cable done
+- Phase 5 — wear test passed
+- Phase 6 — SD card locked read-only
+- Videos collected (15–20 clips, 1–3 minutes each)
 
 ## Dates
 
-- **October 11** — friends' videos due (form link: _add here_)
+- **October 11** — videos collected
 - **October 24** — final playlist on the Pi, filesystem locked, no more software changes
 - **October 31** — Halloween
 
