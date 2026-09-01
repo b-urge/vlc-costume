@@ -28,14 +28,6 @@ Runtime on a 20,000 mAh bank is roughly seven hours. Budget for the whole thing 
 
 The web page is generated, not hand-written. Edit the markdown, never the HTML.
 
-## Editing the plan
-
-1. Open `vlc-costume-build-plan.md` on github.com and click the pencil icon (or edit it in VS Code and push).
-2. Make your change and commit it to `main`.
-3. Wait about a minute. The **Actions** tab shows a run called "Build and publish the plan"; when it turns green, the live page has your change.
-
-To preview a change on your own computer without committing (optional, needs Node): `node md2html.js vlc-costume-build-plan.md index.html`, then open `index.html` in a browser.
-
 ## Progress
 
 - [ ] Phase 0 — parts ordered
